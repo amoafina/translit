@@ -1,18 +1,18 @@
 # Библиотека для транслитерации русских букв в английские
 ## 1. Установка через Composer
 
-    composer require kogarkov/translit ^1
+    composer require kogarkov/translit 0.0.1
 
 Или добавьте в файл composer.json в блок require
 
     {
-        "kogarkov/translit": "^1"
+        "kogarkov/translit": "0.0.1"
     }
 
 ## 2. Использование
 
-    use kogarkov/translit;
+    use Kogarkov\Translit as translit;
 
 
-    $parser = new Translit/Parser();
+    $parser = new translit\Parser();
     $result = $parser->go('Привет, я Коля!'); // Privet, ya Kolya!
