@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Translit;
+namespace Kogarkov\Translit;
 
 use PHPUnit\Framework\TestCase;
 

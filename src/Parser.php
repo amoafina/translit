@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Translit;
+namespace Kogarkov\Translit;
 
 class Parser
 {
