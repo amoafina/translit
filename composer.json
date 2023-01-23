@@ -27,5 +27,7 @@
         "psr-4": {
             "kogarkov\\translit\\test\\": "tests/"
         }
-    }
+    },
+    "minimum-stability": "dev", 
+    "prefer-stable": true
 }
