@@ -1,0 +1,28 @@
+{
+    "name": "kogarkov/translit",
+    "description": "Library for translit russian words into english",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Kirill Ogarkov",
+            "email": "amoafina@bk.ru"
+        }
+    ],
+    "autoload": {
+        "classmap": [
+            "src/"
+        ],
+        "psr-4": {
+            "kogarkov\\translit\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "kogarkov\\translit\\test\\": "tests/"
+        }
+    },
+    "require": {},
+    "require-dev": {
+        "phpunit/phpunit": "8"
+    }
+}
