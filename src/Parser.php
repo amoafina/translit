@@ -6,7 +6,7 @@ namespace Kogarkov\Translit;
 
 class Parser
 {
-    public function go($value)
+    public function go(string $value): string
     {
         $converter = array(
             'а' => 'a',    'б' => 'b',    'в' => 'v',    'г' => 'g',    'д' => 'd',
